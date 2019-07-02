@@ -1,0 +1,180 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size:17px;
+}
+
+.hportrait{
+    margin-top:80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    border: 3px solid #FFF;
+}
+
+.left-bottom{
+    background-color:rgba(20,74,116,0.9);
+    margin:0;
+    width:430px;
+    float:left;
+    height:700px;
+    text-align:center;
+}
+
+@keyframes back{
+    0%{
+        background-image:url("1-2.jpg");
+    }
+    20%{
+        background-image:url("5-2.jpg");
+    }
+    40%{
+        background-image:url("7-2.jpg");
+    }
+    60%{
+        background-image:url("4.jpg");
+    }
+    80%{
+        background-image:url("9-2.jpg");
+    }
+    100%{
+        background-image:url("1-2.jpg");
+    }
+}
+
+.left-bottom:hover{
+    animation-name:back;
+    animation-duration:30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.left{
+    font-family: Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+    margin:0;
+    height:700px;
+    /*background-color:rgba(20,74,116,0.9);*/
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgba(255,255,255,0.7);
+}
+
+.name{
+    padding-top: 20px;
+    height: 100px;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.introduction{
+    font-size:14px;
+    margin-left:85px;
+    width:260px;
+    text-align:left;
+    margin-bottom:60px;
+}
+
+.account{
+    height:30px;
+    margin-left:135px;
+    width:200px;
+    text-align:left;
+    font-size:13px;
+}
+
+.bottom{
+    margin-top:160px;
+    font-size:13px;
+}
+
+.right{
+    font-family: Helvetica, Tahoma, Arial,  "Microsoft YaHei", "微软雅黑";
+    margin-left:430px;
+    width:800px;
+    height:700px;
+    overflow: hidden;
+    text-align:left;
+}
+
+.log{
+    width: 750px;
+    height:200px;
+    margin-left: 50px; 
+    padding-top:40px;
+}
+
+
+.log a{
+    color:black;
+    text-decoration:none;
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
+    transition:color 0.5s linear;
+}
+
+.log a:hover{
+    color:rgba(20,74,116,0.9);
+}
+
+.logabstract{
+    font-size:17px;
+    color:rgba(0,0,0,0.7);
+    float:left;
+    margin-left:0px;
+    width: 470px;
+    transition:color 0.5s linear;
+}
+
+.logabstract:hover{
+    color:rgba(0,0,0,0.9);
+}
+
+.time{
+    color:rgba(0,0,0,0.6);
+    font-size:14px;
+}
+
+.logpic{
+    margin-top:10px;
+    margin-left: 500px;
+    box-shadow:0 0 2px 5px ,rgba(0,0,25,0.1);
+    border-radius:5px;
+    width:240px;
+    height:150px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    transition:box-shadow 0.5s linear;
+}
+
+.logpic:hover{
+    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 75px 1px rgba(0,0,50,0.3);
+}
+
+#i1{
+    background-image: url("11.jpg");
+}
+
+/*详情界面*/
+
+.content{
+    width: 650px;
+    margin-left: 100px; 
+}
+
+.title{
+    font-size:30px;
+}
+
+.transition{
+    margin-top:100px;
+    text-align: center;
+}
+
+.previous{
+    margin-left:0px;
+}
+
+
+
