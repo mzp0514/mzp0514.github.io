@@ -7,11 +7,13 @@ body::-webkit-scrollbar{
     display:none;
 }
 
+/*左半部分*/
+
 h1{
     font-size:17px;
 }
 
-.hportrait{
+.portrait{
     margin-top:80px;
     width: 80px;
     height: 80px;
@@ -28,6 +30,7 @@ h1{
     text-align:center;
 }
 
+/*背景切换动画*/
 @keyframes back{
     0%{
         background-image:url("1-2.jpg");
@@ -56,7 +59,6 @@ h1{
     animation-iteration-count: infinite;
 }
 
-/*左半部分*/
 .left{
     font-family: Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
     margin:0;
@@ -88,7 +90,7 @@ h1{
     font-size:13px;
 }
 
-.bottom{
+.copyright{
     margin-top:60px;
     font-size:13px;
 }
@@ -137,7 +139,7 @@ h1{
     color:rgba(20,74,116,0.9);
 }
 
-.logabstract{
+.log-abstract{
     font-size:17px;
     color:rgba(0,0,0,0.7);
     float:left;
@@ -146,7 +148,7 @@ h1{
     transition:color 0.5s linear;
 }
 
-.logabstract:hover{
+.log-abstract:hover{
     color:rgba(0,0,0,0.9);
 }
 
@@ -155,7 +157,7 @@ h1{
     font-size:14px;
 }
 
-.logpic{
+.log-pic{
     margin-top:10px;
     margin-left: 500px;
     box-shadow:0 0 2px 5px ,rgba(0,0,25,0.1);
@@ -167,7 +169,7 @@ h1{
     transition:box-shadow 0.5s linear;
 }
 
-.logpic:hover{
+.log-pic:hover{
     box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 75px 1px rgba(0,0,50,0.3);
 }
 
@@ -200,12 +202,12 @@ h1{
     width:620px;
 }
 
-.contentpic{
+.content-pic{
     width:100%;
 }
 
 
-.transition{
+.jump{
     margin-top:100px;
     margin-left:350px;
     width:120px;
@@ -218,7 +220,7 @@ h1{
     transition:box-shadow 0.5s linear;
 }
 
-.transition:hover{
+.jump:hover{
     box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 75px 1px rgba(0,0,50,0.3);
     background-color:rgb(18,110,130);
 }
