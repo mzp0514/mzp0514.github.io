@@ -1,7 +1,7 @@
 body{
     text-align: center;
     width: 1290px;
-    
+    overflow-x:hidden;
     margin: 0;
 }
 body::-webkit-scrollbar{
