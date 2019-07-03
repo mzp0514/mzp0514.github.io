@@ -24,7 +24,7 @@ h1{
 .left-bottom{
     background-color:rgba(20,74,116);
     margin:0;
-    width:430px;
+    width:400px;
     float:left;
     height:625px;
     text-align:center;
@@ -33,10 +33,10 @@ h1{
 /*背景切换动画*/
 @keyframes back{
     0%{
-        background-image:url("1-2.jpg");
+        background-image:url("12.jpg");
     }
     20%{
-        background-image:url("12.jpg");
+        background-image:url("4.jpg");
     }
     40%{
         background-image:url("15.jpg");
@@ -48,7 +48,7 @@ h1{
         background-image:url("14.jpg");
     }
     100%{
-        background-image:url("4.jpg");
+        background-image:url("1-2.jpg");
     }
 }
 
@@ -64,7 +64,7 @@ h1{
     margin:0;
     height:625px;
     background-color:rgba(33,55,61,0.5);
-    color:rgba(255,255,255,0.8);
+    color:rgba(255,255,255,0.6);
 }
 
 .name{
@@ -76,7 +76,7 @@ h1{
 
 .introduction{
     font-size:14px;
-    margin-left:85px;
+    margin-left:75px;
     width:260px;
     text-align:left;
     margin-bottom:60px;
@@ -84,7 +84,7 @@ h1{
 
 .account{
     height:30px;
-    margin-left:135px;
+    margin-left:125px;
     width:200px;
     text-align:left;
     font-size:13px;
@@ -98,8 +98,8 @@ h1{
 /*右半部分*/
 
 .right-bottom{
-    margin-left:430px;
-    width:845px;
+    margin-left:400px;
+    width:840px;
     overflow:hidden;
 }
 
@@ -118,7 +118,7 @@ h1{
 }*/
 
 .log{
-    width: 750px;
+    width: 780px;
     height:200px;
     margin-left: 70px; 
     padding-top:40px;
@@ -159,10 +159,10 @@ h1{
 
 .log-pic{
     margin-top:10px;
-    margin-left: 500px;
+    margin-left: 490px;
     box-shadow:0 0 2px 5px ,rgba(0,0,25,0.1);
     border-radius:5px;
-    width:240px;
+    width:230px;
     height:150px;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ h1{
 }
 
 .log-pic:hover{
-    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 75px 1px rgba(0,0,50,0.3);
+    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 60px 1px rgba(0,0,50,0.3);
 }
 
 #i1{
@@ -186,6 +186,7 @@ h1{
 .content{
     width: 650px;
     margin-left: 110px; 
+    margin-top:50px;
 }
 
 .title{
