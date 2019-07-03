@@ -1,7 +1,6 @@
 body{
     text-align: center;
-    width: 1290px;
-    overflow-x:hidden;
+    width: 1280px;
     margin: 0;
 }
 body::-webkit-scrollbar{
@@ -98,14 +97,14 @@ h1{
 
 .right-bottom{
     margin-left:430px;
-    width:855px;
+    width:845px;
     overflow:hidden;
 }
 
 .right{
     font-family: Helvetica, Tahoma, Arial,  "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
     margin-left:0px;
-    width:870px;
+    width:860px;
     height:625px;
     overflow-y: scroll;
     overflow-x: hidden;
