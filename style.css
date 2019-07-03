@@ -98,7 +98,7 @@ h1{
 /*右半部分*/
 
 .right-bottom{
-    margin-left:400px;
+    margin-left:410px;
     width:840px;
     overflow:hidden;
 }
@@ -119,9 +119,8 @@ h1{
 
 .log{
     width: 780px;
-    height:200px;
     margin-left: 70px; 
-    padding-top:40px;
+    margin-top: 50px;
 }
 
 
@@ -140,7 +139,7 @@ h1{
 }
 
 .log-abstract{
-    font-size:17px;
+    font-size:15px;
     color:rgba(0,0,0,0.7);
     float:left;
     margin-left:0px;
@@ -162,7 +161,7 @@ h1{
     margin-left: 490px;
     box-shadow:0 0 2px 5px ,rgba(0,0,25,0.1);
     border-radius:5px;
-    width:230px;
+    width:240px;
     height:150px;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -170,7 +169,7 @@ h1{
 }
 
 .log-pic:hover{
-    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 60px 1px rgba(0,0,50,0.3);
+    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 40px 1px rgba(0,0,50,0.3);
 }
 
 #i1{
