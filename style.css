@@ -16,11 +16,11 @@ h1{
 }
 
 .left-bottom{
-    background-color:rgba(20,74,116,0.9);
+    background-color:rgba(20,74,116);
     margin:0;
     width:430px;
     float:left;
-    height:700px;
+    height:600px;
     text-align:center;
 }
 
@@ -29,19 +29,19 @@ h1{
         background-image:url("1-2.jpg");
     }
     20%{
-        background-image:url("5-2.jpg");
+        background-image:url("12.jpg");
     }
     40%{
-        background-image:url("7-2.jpg");
+        background-image:url("15.jpg");
     }
     60%{
-        background-image:url("4.jpg");
+        background-image:url("5-2.jpg");
     }
     80%{
-        background-image:url("9-2.jpg");
+        background-image:url("14.jpg");
     }
     100%{
-        background-image:url("1-2.jpg");
+        background-image:url("4.jpg");
     }
 }
 
@@ -52,14 +52,21 @@ h1{
     animation-iteration-count: infinite;
 }
 
-
+/*左半部分*/
 .left{
     font-family: Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
     margin:0;
-    height:700px;
+    height:600px;
+    overflow: scroll;
     /*background-color:rgba(20,74,116,0.9);*/
-    background-color:rgba(0, 0, 0, 0.5);
-    color:rgba(255,255,255,0.7);
+    /* background-color:rgba(0, 0, 0, 0.5);*/
+    /*background-color:rgba(20,74,116,0.5);*/
+    background-color:rgba(33,55,61,0.5);
+    color:rgba(255,255,255,0.8);
+}
+
+.left::-webkit-scrollbar{
+    display:none;
 }
 
 .name{
@@ -86,17 +93,22 @@ h1{
 }
 
 .bottom{
-    margin-top:160px;
+    margin-top:60px;
     font-size:13px;
 }
 
+/*右半部分*/
 .right{
-    font-family: Helvetica, Tahoma, Arial,  "Microsoft YaHei", "微软雅黑";
+    font-family: Helvetica, Tahoma, Arial,  "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
     margin-left:430px;
     width:800px;
-    height:700px;
-    overflow: hidden;
+    height:600px;
+    overflow: scroll;
     text-align:left;
+}
+
+.right::-webkit-scrollbar{
+    display:none;
 }
 
 .log{
@@ -153,7 +165,11 @@ h1{
 }
 
 #i1{
-    background-image: url("11.jpg");
+    background-image: url("13.jpg");
+}
+
+#i2{
+    background-image: url("15.jpg");
 }
 
 /*详情界面*/
@@ -167,14 +183,48 @@ h1{
     font-size:30px;
 }
 
-.transition{
-    margin-top:100px;
-    text-align: center;
+.text{
+    text-indent:30px;
+    line-height: 30px;
 }
 
-.previous{
-    margin-left:0px;
+.image{
+    margin-left: 10px; 
+    width:620px;
 }
+
+.contentpic{
+    width:100%;
+}
+
+
+.transition{
+    margin-top:100px;
+    margin-left:350px;
+    width:120px;
+    height:30px;
+    text-align: center;
+    margin-bottom:100px;
+    border-radius:5px;
+    background-color:rgba(71,75,76,0.9);
+    box-shadow:2px 2px 2px 5px ,rgba(0,0,25,0.7);
+    transition:box-shadow 0.5s linear;
+}
+
+.transition:hover{
+    box-shadow:0 2px 5px rgba(0,0,25,0.3),0 5px 75px 1px rgba(0,0,50,0.3);
+    background-color:rgb(18,110,130);
+}
+
+.next{
+    color:rgba(255,255,255);
+    font-size:20px;
+    vertical-align:middle;
+    text-decoration:none;
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑";
+}
+
+
 
 
 
