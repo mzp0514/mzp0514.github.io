@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    width: 1280px;
+    width: 1;
     margin: 0;
 }
 body::-webkit-scrollbar{
@@ -190,6 +190,10 @@ h1{
 
 .title{
     font-size:30px;
+}
+
+.subtitle{
+    font-size:20px;
 }
 
 .text{

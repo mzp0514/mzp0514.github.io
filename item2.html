@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>茅志鹏的博客</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet"  href="style.css">
+  </head>
+  <body>
+    
+    <div class="left-bottom">
+        <div class="left">
+                <a href="homepage.html">
+                        <img src="3.jpg" class="portrait">
+                </a>
+            <div class="name">
+                <h1>茅志鹏的博客</h1>
+                <h1>Mao Zhipeng's Blog</h1>
+            </div>
+            <div class="introduction">中华人民共和国北京市海淀区华清大学的末等程序猿。不争不抢、不哭不闹、不卑不亢、不悲不喜、一切随缘。</div>
+             
+            <div class="account">知乎：@懋士月</div>
+            <div class="account">微信：mzp1076470037</div>
+            <div class="account">邮箱：mzp0514@gmail.com</div>
+            <div class="copyright">©2019 by茅志鹏</div>
+        </div>
+    </div>
+    <div class="right-bottom">
+        <div class="right">
+            
+            <div class="content">
+               <h1 class="title">2019夏Web前端小学期第二弹</h1>
+               <p class="time">发布于2019年7月7日</p>
+               <p class = "text">诚如CourseInfo中所说，“学中做，做中学”，在《JavaScript高级程序设计》和搜索引擎的帮助下，用C风格的JavaScript代码完成了这一次类似程设课的作业。虽然做题过程中没有使用到太多JavaScript的高级的特性，但是还是体会到JavaScript的强大之处，比如函数可以作为对象传递、数组的构造方法、各种好用的内置函数等，比用C++写算法题要方便许多。下面说一说自己每道题的解题思路。</p>
+               <div class="image">
+                   <img src="item2-1.png" class="content-pic">
+              </div>
+               <h2 class="subtitle">T1 DDL</h2>
+               <p class="text"> 
+                   这题主要用到JavaScript内置的Date对象，以及数组的排序函数。需要注意排序函数需要传入比较函数，否则会默认按照字符串类型进行排序。
+               </p>
+               <h2 class="subtitle">T2 迭代器</h2>
+               <p class="text"> 
+                   这题要求实现树的先序遍历的迭代器。题目中说可以使用JavaScript的Generator特性，我不明觉厉，于是直接先使用栈得到这棵树的先序遍历序列（数组）然后就可以像遍历数组一样遍历这棵树了。
+               </p>
+               <h2 class="subtitle">T3 fmap</h2>
+               <p class="text"> 
+                   这题要求实现一个能够递归地以某函数处理数组中的数组元素的函数，因此就直接递归地处理传进来的数组即可。判断递归终点时需要判断该对象是数组还是原子元素，可以使用Array.isArray的方法，若是数组，则继续进行递归，否则返回传入函数处理后的值。
+               </p>
+               <h2 class="subtitle">T4 推箱子</h2>
+               <p class="text"> 
+                   这题要求判断推箱子游戏中人能否把箱子推到终点。从箱子开始考虑，用bfs判断能否到达终点，其中箱子每走一步需要满足几个条件，一是下一格子没有越界，二是没有障碍物，三是从当前格子到下一格子这种走法之前没有走过，四是人要能从他现在的位置到达要把箱子推到下一格所需要在的位置，例如人现在在(0, 0)，箱子在(3, 3)，要把箱子推到(3, 4)，人需要能从(0, 0)走到(3, 2)，这个可以通过dfs/bfs来判断。需要注意的是
+                   <ul style="line-height: 30px;">
+                       <li>要在地图中随时维护人的位置（除了一开始，否则都是箱子上一步所在的位置，因此要记录上一步的走法从而推得人所在的位置）</li>
+                       <li>判断条件是箱子从当前格子到下一格子这种走法之前没有走过，而不是箱子没有到达过下一格子（游戏经验告诉我们会有需要先把箱子推开再推回去的需要），因此维护的visited数组应该是三维，前两维为x,y位置，第三维为从上一位置到这一位置的走法（本题中为上下左右4种）。</li>
+                       <li>人在走的过程中不能通过箱子所在的位置，因此箱子的位置也要随时维护。</li>
+                    </ul>
+               </p>
+               <h2 class="subtitle">T5 运算符定义</h2>
+               <p class="text"> 
+                   这题要求根据定义的运算符计算给定的表达式。首先根据运算符的定义可以得到所需要的运算函数（可以感受到函数作为对象的优越性……），然后用栈解析、计算表达式即可。
+               </p>
+               <p class="text"> 
+                    通过这次实验算是能用JavaScript写算法题了，但是其实JavaScript还有许许多多的东西需要去探索~（做完实验三再来写这篇博文的表示DOM的内容完全没有涉及到啊…）
+                </p>
+               
+            </div>
+            <div class="jump">
+                <a class="next" href="item1.html">下一篇</a>
+            </div>
+        </div>    
+    </div>
+  </body>
+</html>
