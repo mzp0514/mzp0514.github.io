@@ -33,22 +33,22 @@ h1{
 /*背景切换动画*/
 @keyframes back{
     0%{
-        background-image:url("12.jpg");
+        background-image:url("../img/12.jpg");
     }
     20%{
-        background-image:url("4.jpg");
+        background-image:url("../img/4.jpg");
     }
     40%{
-        background-image:url("15.jpg");
+        background-image:url("../img/15.jpg");
     }
     60%{
-        background-image:url("5-2.jpg");
+        background-image:url("../img/5-2.jpg");
     }
     80%{
-        background-image:url("14.jpg");
+        background-image:url("../img/14.jpg");
     }
     100%{
-        background-image:url("1-2.jpg");
+        background-image:url("../img/1-2.jpg");
     }
 }
 
@@ -113,9 +113,6 @@ h1{
     text-align:left;
 }
 
-/*.right::-webkit-scrollbar{
-    display:none;
-}*/
 
 .log{
     width: 780px;
@@ -173,11 +170,11 @@ h1{
 }
 
 #i1{
-    background-image: url("13.jpg");
+    background-image: url("../img/13.jpg");
 }
 
 #i2{
-    background-image: url("15.jpg");
+    background-image: url("../img/15.jpg");
 }
 
 /*详情界面*/
