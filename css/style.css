@@ -117,7 +117,7 @@ h1{
 .log{
     width: 780px;
     margin-left: 70px; 
-    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -175,6 +175,13 @@ h1{
 
 #i2{
     background-image: url("../img/15.jpg");
+}
+
+#i3{
+    background-image: url("../img/16.jpg");
+}
+#i4{
+    background-image: url("../img/17.jpg");
 }
 
 /*详情界面*/
